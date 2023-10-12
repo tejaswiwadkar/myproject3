@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">Teacher Resource</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsiblenavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsileNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/page/display-teacher.html">Display</a>
+                    </li>
+                    <ul class="navbar-nav mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/page/admin-teacher.html">Admin</a>
+                        </li>
+                    </ul>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-3">
+        <div class="row">
+            <div class="col">
+                <p class="h3 text-success">All Students</p>
+                <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus reprehenderit
+                    vel quis. Illo laboriosam odit iure quos veritatis reprehenderit veniam soluta natus, tenetur eaque?
+                    Quos officiis nesciunt ad doloribus mollitia!</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <div class="row" id="std-row">
+        </div>
+    </div>
+
+
+
+    <!-- js file -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/script/display-teacher.js" type="module"></script>
+</body>
+
+</html>
